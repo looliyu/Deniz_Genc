@@ -122,3 +122,44 @@ a {
 #about p {
     text-align: justify;
 }
+
+#heart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    animation: fadeOut 2s ease 5s forwards;
+}
+
+.heart-burst {
+    position: absolute;
+    font-size: 40px;
+    animation: float 5s ease-in-out both;
+    opacity: 0;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) scale(0);
+        opacity: 0;
+    }
+    20% {
+        transform: translateY(-20vh) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+
+
