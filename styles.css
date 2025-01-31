@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8; 
+}
+
+header {
+    background-color: #8a4ebf; 
+    color: #fff; 
+    padding: 1rem 0;
+    text-align: center;
+	
+}
+
+header h1 {
+    font-size: 3.5rem;       
+    letter-spacing: 3px;     
+    text-transform: uppercase; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin: 15px 0;         
+    font-family: 'Verdana', Tahoma, Geneva, Verdana, sans-serif; 
+    animation: fadeIn 1.5s ease-in; 
+	
+    background: linear-gradient(45deg, #ffffff, #e6e6fa);
+    -webkit-background-clip: text;
+    
+
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    background-color: #fff; /* Beyaz bölüm arka planı */
+	
+}
+
+section h2 {
+  margin-bottom: 1.5rem;
+  color: #4a148c; /* Başlık rengi */
+}
+
+#about {
+    background-color: #e6e6fa; /* Açık lavanta hakkında bölümü */
+}
+
+#contact {
+    background-color: #e6e6fa; /* Açık lavanta iletişim bölümü */
+}
+
+footer {
+    background-color: #8a4ebf; /* Orta lavanta alt bilgi */
+    color: #fff; /* Beyaz metin */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+	
+}
+
+img {
+  border: 3px solid #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+section {
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  color: #ffd700; /* Altın rengi hover efekti */
+  transition: 0.3s;
+}
+
+/* Linkler için ek stil */
+a {
+  color: #6a1b9a; /* Mor renk */
+  text-decoration: underline;
+  
+}
+
+.footer-heart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-heart i {
+    margin-left: 5px;
+}
+
+#about p {
+    text-align: justify;
+}
